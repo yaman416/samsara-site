@@ -1,18 +1,9 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
-    "lib": ["ES2022", "DOM", "DOM.Iterable"],
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "allowJs": false,
-    "strict": true,
-    "noEmit": true,
-    "jsx": "preserve",
-    "incremental": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
     "baseUrl": ".",
-    "paths": {},
+    "paths": {
+      "@/*": ["samsara-site/src/*"]
+    },
     "skipLibCheck": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
